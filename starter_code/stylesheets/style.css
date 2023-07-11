@@ -8,3 +8,107 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+body {
+    background-color: #540B51;  
+    border: 10px;
+    padding: 10px;  
+}
+
+/* .intro-buttons {
+    display: flex;
+    flex-direction: row;
+    background-color: #540B51;
+    padding: 5px;
+    border-style: none;
+}  */
+
+ @media (max-width: 768px) {
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #intro {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .intro-buttons img {
+        width: 30px;
+        background-color: #540B51;
+        padding: 0;
+        border: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+    }
+
+    h1 {
+       font-size: 50px;
+       color: white;
+       text-align: center;
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       display: flex;
+       justify-content: center;
+       padding: 10px;
+    }
+
+   
+    header p {
+        color: white;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    header p span {
+        color: yellow;
+    }
+
+    button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-transform: uppercase;
+        margin: 10px;
+        height: 50px;
+    }
+
+
+    #companies p {
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        text-transform: uppercase ;
+    }
+
+    #companies img {
+        height: 40px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    
+  #google {
+      background-color: #4285F4;
+      display: flex;
+      flex-direction: row;
+      gap: 30px
+  }
+
+  #google img {
+    background-color: white;
+    display: flex;
+    /* align-items: start;  no funciona..*/ 
+  }
+
+
+ }
+
+  
+
